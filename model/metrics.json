@@ -1,0 +1,174 @@
+{
+  "sklearn_version": "1.9.1",
+  "selection_metric": "macro_f1",
+  "train_rows": 2838,
+  "test_rows": 715,
+  "best_cv_macro_f1": 0.759546016832443,
+  "best_params": {
+    "classifier__C": "1",
+    "tfidf__max_features": "5000",
+    "tfidf__min_df": "2",
+    "tfidf__ngram_range": "(1, 1)"
+  },
+  "duplicate_test_rows": 3,
+  "optimized_test": {
+    "accuracy": 0.7230769230769231,
+    "report": {
+      "0": {
+        "precision": 0.7327044025157232,
+        "recall": 0.6734104046242775,
+        "f1-score": 0.7018072289156626,
+        "support": 346.0
+      },
+      "1": {
+        "precision": 0.7153652392947103,
+        "recall": 0.7696476964769647,
+        "f1-score": 0.741514360313316,
+        "support": 369.0
+      },
+      "accuracy": 0.7230769230769231,
+      "macro avg": {
+        "precision": 0.7240348209052168,
+        "recall": 0.7215290505506211,
+        "f1-score": 0.7216607946144893,
+        "support": 715.0
+      },
+      "weighted avg": {
+        "precision": 0.7237559392590047,
+        "recall": 0.7230769230769231,
+        "f1-score": 0.7222994407838222,
+        "support": 715.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        233,
+        113
+      ],
+      [
+        85,
+        284
+      ]
+    ]
+  },
+  "optimized_deduplicated_test": {
+    "accuracy": 0.7247191011235955,
+    "report": {
+      "0": {
+        "precision": 0.7365079365079366,
+        "recall": 0.672463768115942,
+        "f1-score": 0.703030303030303,
+        "support": 345.0
+      },
+      "1": {
+        "precision": 0.7153652392947103,
+        "recall": 0.773841961852861,
+        "f1-score": 0.743455497382199,
+        "support": 367.0
+      },
+      "accuracy": 0.7247191011235955,
+      "macro avg": {
+        "precision": 0.7259365879013234,
+        "recall": 0.7231528649844015,
+        "f1-score": 0.723242900206251,
+        "support": 712.0
+      },
+      "weighted avg": {
+        "precision": 0.7256099451072988,
+        "recall": 0.7247191011235955,
+        "f1-score": 0.7238674467482044,
+        "support": 712.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        232,
+        113
+      ],
+      [
+        83,
+        284
+      ]
+    ]
+  },
+  "previous_test": {
+    "accuracy": 0.7188811188811188,
+    "report": {
+      "0": {
+        "precision": 0.7865612648221344,
+        "recall": 0.5751445086705202,
+        "f1-score": 0.664440734557596,
+        "support": 346.0
+      },
+      "1": {
+        "precision": 0.6818181818181818,
+        "recall": 0.8536585365853658,
+        "f1-score": 0.7581227436823105,
+        "support": 369.0
+      },
+      "accuracy": 0.7188811188811188,
+      "macro avg": {
+        "precision": 0.7341897233201581,
+        "recall": 0.714401522627943,
+        "f1-score": 0.7112817391199533,
+        "support": 715.0
+      },
+      "weighted avg": {
+        "precision": 0.7325050443627518,
+        "recall": 0.7188811188811188,
+        "f1-score": 0.7127885126932878,
+        "support": 715.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        199,
+        147
+      ],
+      [
+        54,
+        315
+      ]
+    ]
+  },
+  "previous_deduplicated_test": {
+    "accuracy": 0.7205056179775281,
+    "report": {
+      "0": {
+        "precision": 0.792,
+        "recall": 0.5739130434782609,
+        "f1-score": 0.6655462184873949,
+        "support": 345.0
+      },
+      "1": {
+        "precision": 0.6818181818181818,
+        "recall": 0.8583106267029973,
+        "f1-score": 0.7599517490952955,
+        "support": 367.0
+      },
+      "accuracy": 0.7205056179775281,
+      "macro avg": {
+        "precision": 0.736909090909091,
+        "recall": 0.716111835090629,
+        "f1-score": 0.7127489837913452,
+        "support": 712.0
+      },
+      "weighted avg": {
+        "precision": 0.7352068437180798,
+        "recall": 0.7205056179775281,
+        "f1-score": 0.7142074962024223,
+        "support": 712.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        198,
+        147
+      ],
+      [
+        52,
+        315
+      ]
+    ]
+  }
+}
